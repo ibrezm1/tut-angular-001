@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
+import { Hello1Component } from './hello/hello1.component';
+import { Hello2Component } from './hello/hello2.component';
 
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
@@ -12,7 +13,8 @@ import { ServersComponent } from './servers/servers.component';
   imports: [BrowserModule, FormsModule],
   declarations: [
     AppComponent,
-    HelloComponent,
+    Hello1Component,
+    Hello2Component,
     ServerComponent,
     ServersComponent,
   ],
