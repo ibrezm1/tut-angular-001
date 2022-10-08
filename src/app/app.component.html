@@ -1,28 +1,35 @@
-<h2>Hello {{ name }}</h2>
-<p>
-  Start editing to see some magic happen :)<br /><br />
-  #00 Bootstrap add the css in syles array
-  <a
-    href="https://stackoverflow.com/questions/37649164/how-to-add-bootstrap-to-an-angular-cli-project"
-    >here</a
-  ><br />
-  <input type="button" value="Bootsrap" class="btn btn-primary" />
-  <br /><br />
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Hello {{ name }}</h2>
+      <hr />
+      <p>
+        Start editing to see some magic happen :)<br /><br />
+        #00 Bootstrap add the css in syles array
+        <a
+          href="https://stackoverflow.com/questions/37649164/how-to-add-bootstrap-to-an-angular-cli-project"
+          >here</a
+        ><br />
+        <input type="button" value="Bootsrap" class="btn btn-primary" />
+        <br /><br />
 
-  #01 Flow <br />
-  index>main>app.module.ts>appcomponent.ts>app.component.html <br />
-  <br />
-  #02 Lets see a connected variable use ngModel and import forms<br />
-  <input type="text" [(ngModel)]="surname" />
-  {{ surname }}
-  <br /><br />
-  #03 Custom component with input and template in one component has to be
-  specified in app.modue.ts and declaration and import <br />
-  <hello name="Custom"></hello>
-  #04 Custom moponent with template url <br />
-  <app-server></app-server> <br />
-  #05 Created a new component with ng generate component ( g c ) servers and add
-  it to app module ts dec and import
-  <app-servers></app-servers>
-  <br />
-</p>
+        #01 Flow <br />
+        index>main>app.module.ts>appcomponent.ts>app.component.html <br />
+        <br />
+        #02 Lets see a connected variable use ngModel and import forms<br />
+        <input type="text" [(ngModel)]="surname" />
+        {{ surname }}
+        <br /><br />
+        #03 Custom component with input and template in one component has to be
+        specified in app.modue.ts and declaration and import <br />
+        <hello name="Custom"></hello>
+        #04 Custom moponent with template url <br />
+        <app-server></app-server> <br />
+        #05 Created a new component with ng generate component ( g c ) servers
+        and add it to app module ts dec and import
+        <app-servers></app-servers>
+        <br />
+      </p>
+    </div>
+  </div>
+</div>
