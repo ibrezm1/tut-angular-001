@@ -1,5 +1,10 @@
-<p>
-servers works!
-</p>
+<p>servers works!</p>
+<button type="button" class="btn btn-primary" [disabled]="!allowNewServer">
+  Add Server
+</button>
+<br />
+{{ allowNewServer }} <br />
+Remember the property binding added here [disabled]="variable"
+<br />
 <app-server></app-server>
 <app-server></app-server>

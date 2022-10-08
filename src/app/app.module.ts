@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { Hello1Component } from './hello/hello1.component';
 import { Hello2Component } from './hello/hello2.component';
+import { Hello3Component } from './hello/hello3.component';
 
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
@@ -15,6 +16,7 @@ import { ServersComponent } from './servers/servers.component';
     AppComponent,
     Hello1Component,
     Hello2Component,
+    Hello3Component,
     ServerComponent,
     ServersComponent,
   ],
