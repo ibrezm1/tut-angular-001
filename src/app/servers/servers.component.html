@@ -1,5 +1,8 @@
 <p>servers works!</p>
-
+<br />
+Remember Ngif with * template marker with # if and ele condition in the same double quotes
+<p *ngIf="serverCreated else noServer" [innerHTML]="serverCreationStatus"></p>
+<ng-template #noServer> <p>No Server Created.</p> </ng-template>
 <input type="text" class="form-control" (input)="onUpdateServerName($event)" />
 <button
   type="button"
